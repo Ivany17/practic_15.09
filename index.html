@@ -2,12 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Practic September 7th</title>
+    <title>Practic September 15th</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    
+    <div class="container">
+        <section>
+            <fieldset>
+                    <legend>Register</legend>
+                <p>Create your account. It's free and only takes a minute.</p>
+                <form action="/test-action" method="GET">
+                    <div class="name">
+                            <input autofocus 
+                            type="text" 
+                            placeholder="First name"
+                            name="firstName"
+                            required
+                            pattern="^[A-Z][a-z0-9]{2,15}$">
+            
+                            <input type="text" 
+                            placeholder="Last name"
+                            name="lastName"
+                            required>
+                    </div>
+                    <div class="email margin">
+                        <input type="email" 
+                        placeholder="Email"
+                        name="email"
+                        required
+                        autocomplete="email" size="44">
+                    </div>
+
+                    <div class="password margin">
+                        <input type="password" placeholder="Password" size="44">
+                    </div>
+
+                    <div class="confirm margin">
+                        <input type="password" placeholder="Confirm Password" size="44">
+                    </div>
+
+                    <div class="accept margin">
+                        <label>
+                            <input value="JS" type="checkbox" name="course">I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>
+                        </label>
+                    </div>
+
+                    <div class="btn margin">
+                        <button class="btn" type="submit" name="submit_button" value="main_button">Register Now</button>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+
+        <div class="exist">
+            <p>Already have an account? <span>Sign in</span></p>
+        </div>
+    </div>
+  
 </body>
 </html>

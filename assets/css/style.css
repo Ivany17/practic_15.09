@@ -1,0 +1,57 @@
+.container {
+    padding-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    width: 500px;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+fieldset {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+legend {
+    font-size: 30px;
+}
+
+form {
+    padding: 20px;
+    background-color: rgb(235, 233, 233);
+}
+
+.margin {
+    margin: 10px;
+}
+
+.email {
+    padding: 1;
+}
+
+.accept span {
+    color: green;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    background: green;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+} 
+
+.exist {
+    text-align: center;
+}
+
+.exist span {
+    text-decoration: underline;
+}
+
