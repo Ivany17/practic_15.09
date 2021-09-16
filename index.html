@@ -12,45 +12,37 @@
         <section>
             <form action="/test-action" method="GET" class="form">
                 <fieldset>
-                        <legend>Register</legend>
-                    <p>Create your account. It's free and only takes a minute.</p>
-                        <div class="user-name">
-                                <input autofocus 
-                                type="text" 
-                                placeholder="First name"
-                                name="firstName"
-                                required
-                                pattern="^[A-Z][a-z0-9]{2,15}$">
-                
-                                <input type="text" 
-                                placeholder="Last name"
-                                name="lastName">
-                        </div>
-                        <div class="email margin">
-                            <input type="email" 
-                            placeholder="Email"
-                            name="email"
+                        <legend>register</legend>
+                        <p>Create your account. It's free and only takes a minute.</p>
+                    <div class="user-name margin">
+                            <input autofocus 
+                            type="text" 
+                            placeholder="First name"
+                            name="firstName"
                             required
-                            autocomplete="email" >
-                        </div>
+                            pattern="^[A-Z][a-z0-9]{2,15}$">
+            
+                            <input type="text" 
+                            placeholder="Last name"
+                            name="lastName">
+                    </div>
+                    <div class="flex margin">
+                        <input type="email" 
+                        placeholder="Email"
+                        name="email"
+                        required
+                        autocomplete="email" >
 
-                        <div class="password margin">
-                            <input type="password" placeholder="Password">
-                        </div>
+                        <input type="password" placeholder="Password">
 
-                        <div class="confirm margin">
-                            <input type="password" placeholder="Confirm Password">
-                        </div>
+                        <input type="password" placeholder="Confirm Password">
 
-                        <div class="accept margin">
-                            <label>
-                                <input value="JS" type="checkbox" name="course">I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>
-                            </label>
-                        </div>
+                        <label>
+                            <input value="JS" type="checkbox" name="course">  I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>
+                        </label>
 
-                        <div class="btn margin">
-                            <button class="btn" type="submit" name="submit_button" value="main_button">Register Now</button>
-                        </div>
+                        <button class="btn" type="submit" name="submit_button" value="main_button">Register Now</button>
+                    </div>    
                 </fieldset>
             </form>
         </section>
