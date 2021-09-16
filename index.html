@@ -10,49 +10,49 @@
 <body>
     <div class="container">
         <section>
-            <fieldset>
-                    <legend>Register</legend>
-                <p>Create your account. It's free and only takes a minute.</p>
-                <form action="/test-action" method="GET" class="form">
-                    <div class="user-name">
-                            <input autofocus 
-                            type="text" 
-                            placeholder="First name"
-                            name="firstName"
+            <form action="/test-action" method="GET" class="form">
+                <fieldset>
+                        <legend>Register</legend>
+                    <p>Create your account. It's free and only takes a minute.</p>
+                        <div class="user-name">
+                                <input autofocus 
+                                type="text" 
+                                placeholder="First name"
+                                name="firstName"
+                                required
+                                pattern="^[A-Z][a-z0-9]{2,15}$">
+                
+                                <input type="text" 
+                                placeholder="Last name"
+                                name="lastName">
+                        </div>
+                        <div class="email margin">
+                            <input type="email" 
+                            placeholder="Email"
+                            name="email"
                             required
-                            pattern="^[A-Z][a-z0-9]{2,15}$">
-            
-                            <input type="text" 
-                            placeholder="Last name"
-                            name="lastName">
-                    </div>
-                    <div class="email margin">
-                        <input type="email" 
-                        placeholder="Email"
-                        name="email"
-                        required
-                        autocomplete="email" size="49">
-                    </div>
+                            autocomplete="email" >
+                        </div>
 
-                    <div class="password margin">
-                        <input type="password" placeholder="Password" size="49">
-                    </div>
+                        <div class="password margin">
+                            <input type="password" placeholder="Password">
+                        </div>
 
-                    <div class="confirm margin">
-                        <input type="password" placeholder="Confirm Password" size="49">
-                    </div>
+                        <div class="confirm margin">
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
 
-                    <div class="accept margin">
-                        <label>
-                            <input value="JS" type="checkbox" name="course">I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>
-                        </label>
-                    </div>
+                        <div class="accept margin">
+                            <label>
+                                <input value="JS" type="checkbox" name="course">I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>
+                            </label>
+                        </div>
 
-                    <div class="btn margin">
-                        <button class="btn" type="submit" name="submit_button" value="main_button">Register Now</button>
-                    </div>
-                </form>
-            </fieldset>
+                        <div class="btn margin">
+                            <button class="btn" type="submit" name="submit_button" value="main_button">Register Now</button>
+                        </div>
+                </fieldset>
+            </form>
         </section>
 
         <div class="exist-account">
