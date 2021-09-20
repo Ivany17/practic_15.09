@@ -15,6 +15,10 @@
     margin-top: 10px;
 }
 
+.border {
+    border-radius: 3px;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -33,15 +37,13 @@
 
 section {
     width: 500px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;  
     text-align: center;
-    background-color: rgb(235, 233, 233);
-    border-radius: 3px;
+    background-color: rgb(241 241 241);
 }
 
 fieldset {
-
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -64,6 +66,8 @@ input {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 13px;
+    border-radius: 3px;
+    border: 1px solid rgb(204, 204, 204);
 }
 
 .user-name {
@@ -84,6 +88,7 @@ input {
     cursor: pointer;
     font-size: 20px;
     color: white;
+    font-weight: bold;
     margin-top: 10px;
 
     overflow: hidden;
