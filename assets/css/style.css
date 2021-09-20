@@ -8,6 +8,7 @@
     margin: 0 auto;
     background-color: #6e87aa;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 .container p {
@@ -36,9 +37,11 @@ section {
     margin: 0 auto;  
     text-align: center;
     background-color: rgb(235, 233, 233);
+    border-radius: 3px;
 }
 
 fieldset {
+
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -75,12 +78,17 @@ input {
 .btn {
     border: none;
     border-radius: 4px;
+    width: 400px;
     padding: 8px 18px;
     background: green;
     cursor: pointer;
     font-size: 20px;
     color: white;
     margin-top: 10px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 } 
 
 .exist-account {
