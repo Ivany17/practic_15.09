@@ -50,8 +50,13 @@ fieldset {
 }
 
 legend {
+    width: 130px;
     font-size: 30px;
     text-transform: capitalize;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 form {
